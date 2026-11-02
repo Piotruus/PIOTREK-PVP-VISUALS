@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "piotrek_pvp_visuals",
+  "version": "${version}",
+  "name": "PIOTREK PvP VISUALS",
+  "description": "Personal PvP visual effects starter mod for Minecraft 1.21.4.",
+  "authors": ["Piotrek"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "pl.piotrek.pvpvisuals.PiotrekPvPVisualsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
